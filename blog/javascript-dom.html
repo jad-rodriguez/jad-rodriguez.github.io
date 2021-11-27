@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jad's Page</title>
+  <link rel="stylesheet" type="text/css" href="../styles/main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../blog/about.html" style="text-decoration: none; color:rgb(66, 66, 66)"><strong>About</strong></a></li>
+        <li><a href="../blog/sprint1-technical.html" style="text-decoration: none; color:rgb(66, 66, 66)"><strong>Technical Blog</strong></a></li>
+        <li><a href="../blog/sprint1-cultural.html" style="text-decoration: none; color:rgb(66, 66, 66)"><strong>Identity, Values and Strengths Exploration</strong></a></li>
+        <li><a href="../blog/sprint2-cultural.html" style="text-decoration: none; color:rgb(66, 66, 66)"><strong>Learning Plan</strong></a></li>
+        <li><a href="../blog/sprint3-cultural.html" style="text-decoration: none; color:rgb(66, 66, 66)"><strong>Emotional Intelligence</strong></a></li>
+        <li><a href="../blog/javascript-dom.html" style="text-decoration: none; color:rgb(66, 66, 66)"><strong>JS Fundamentals</strong></a></li>
+      </ul>
+    </nav>
+      <h1><a href="../index.html" style="text-decoration: none; color:rgb(66, 66, 66)">Jad's Page</a></h1>
+  </header>  
+  <section id="S2">
+    <div>
+        <h2>JavaScript Fundamentals</h2>
+    </div>
+    <div>
+        <p>
+            In this section, we are going to learn about some technical items, fundamental to learning basics in Javascript. This is not a comprehensive resource, but hopefully this gives you a bit of idea about it. Have fun reading!
+        </p>
+        <h3>Difference between HTML and CSS</h3>
+        <p>
+            <strong><em>Do you love music, or singing? Well, we'll use that analogy in helping you learn about the difference between HTML and CSS.</em></strong>
+        </p>
+        <p>
+            But first, let's define each. HTML or HyperText Markup Language is the most basic building block of the Web. It defines the meaning and structure of web content. 
+            CSS or Cascading Style Sheets describes how HTML elements are to be displayed on screen, paper, or in other media. It can also control the layout of multiple web pages all at once.
+        </p>
+        <p>
+            Think of HTML and CSS as the lyrics and music of a song. The lyrics creates the structure of a song, the same way HTML is the structure of a webpage. 
+            And the music which complements the lyrics, giving life to it with melodies and styles, is the same way that CSS gives life to HTML with styles.
+        </p>
+        <h3>The DOM</h3>
+        <p>
+            No, it's not "<em>DOOM</em>," don't worry! It's the DOM which stands for <strong>Document Object Model</strong>. The DOM or Document Object Model is a tree-like representation of the web page that gets loaded into the browser.
+            It represents the web page using a‌‌ series of objects. The DOM is a top down representation of all the elements that make up a web page. It's the interface through which your script interacts with your HTML.
+        </p>
+        <p>
+            WOAH WOAH WOAH! I know that's a bit hard to digest. So let's try and give an analogy about what it is, and how we can interact with the DOM.
+        </p>
+        <p>
+            Let’s take a ride! Imagine a car. 
+        </p>
+        <p>
+            If we are going to ride it, we will need...
+        </p>
+        <p>
+            a <strong><em>key</em></strong>.
+        </p>
+        <p>
+            The key serves as the bridge which allows us to interact with the car.
+            Before we can ride the car and make it active and dynamic in the road, we need a key. 
+            In the same way, JavaScript makes makes the HTML page active and dynamic via the <strong><em>DOM</em></strong>.
+        </p>
+        <p>
+            But in terms of how we can think of what the DOM is and what it is made up of, we can try and imagine a house. It's got a structure, layout, sections, designs, and the list goes on and on.
+            The DOM is made up of what's called nodes, which can be elements, attributes, text content, comments, document-related stuff, and various other things you simply never think about. 
+        </p>
+        <p>
+            The DOM glues HTML, CSS, and JavaScript together.
+        </p>
+        <h3>Control Flow and Loops</h3>
+        <p>
+            Control Flow in JavaScript is how your computer runs code from top to bottom. It starts from the first line and ends at the last line, 
+            unless it hits any statement that changes the control flow of the program such as loops, conditionals, or functions. Think about the pipeline of water ways for example. 
+            It can run through the pipes on a specified direction, unless you create changes in the flow. In terms of water pipes, loops can be like water flowing through the pipes. 
+            The flow will be kept (for loops, kept on looping) based on the specified direction, flowing until there's nothing left to let it flow to (for loops, until there's nothing left
+            to loop over or if the condition becomes false). 
+        </p>
+        <h3>Difference between Accessing Data from Arrays and Objects</h3>
+        <p>
+            We can say that accessing data from an array is like looking at your priority list of tasks for example. You set the items in order, and you basically look at it in an ordered manner. 
+            Let’s say here are my priority of tasks today:
+        </p>
+        <p>
+            <ol>
+                <li>Accomplish modules for lessons today</li>
+                <li>Go for a jog</li>
+                <li>Prepare dinner</li>
+                <li>Do my journal</li>
+            </ol>
+        </p>
+        <p>
+            In the list above, I’ve assigned a numerical value to show the items, but even if I don’t, we basically have the idea that its order is from top to bottom, or if I put it this way 
+            [Accomplish modules for lessons today, Go for a jog, Prepare dinner, Do my journal], it’s from left to right. In Javascript, an array is an ordered list of value. Each value is called an 
+            element specified by an index. (Woah, hang on a minute, that escalated quickly!). Don’t worry, I’ll explain this to you in a moment.
+        </p>
+    <div>
+        <div class="centre"><img src="../images/array.png" alt="An Illustration of Array showing index of elements" width=""></div>
+    </div>
+        <p>
+            In the illustration above, we can see that the items in my priority list has an assigned index (basically the equivalent numerical value in the order) of 0, 1, 2, 3. 
+            In JavaScript, the values in an array always starts with an index of 0. Simply put, we count from 0. So when you’re accessing elements (or in our example, an item in our priority list) from arrays, 
+            you are simply browsing through an ordered list of values.
+        </p>
+        <p>
+            How about for <em>Objects</em>? Well first let us try and define it first. Objects are used to represent a “thing” in your code. That could be a person, a car, a building, a book, a character in a game — 
+            basically anything that is made up or can be defined by a set of characteristics. In objects, these characteristics are called properties that consist of a <strong><em>key</em></strong> and a <strong><em>value</em></strong>.
+        <p>
+            Let's take a car for example. Car is our object, and what we put inside the curly braces (<strong>{ }</strong>), are the properties. In the illustration below you'll see that we have following properties:
+            <ul>
+                <li>brand: 'Subaru'</li>
+                <li>model: 'Impreza'</li>
+                <li>year: 2005</li>
+                <li>transmission: 'Automatic'</li>
+            </ul>
+        </p>
+    <div>
+        <div class="centre"><img src="../images/object.png" alt="An Illustration of Object showing properties with Key and Value" width=""></div>
+    </div>
+        <p>
+            <em>Properties</em> in objects can be accessed, added, changed, and removed by using either dot or bracket notation. To get the value of the <strong>year</strong> <em>key</em> in our <strong>car</strong> <em>object</em>
+            with both dot and bracket notation, we’d write:
+        </p>
+            <ul>
+                <li><strong>Dot notation</strong></li>
+                <ul><li>car.year // returns 2005</li></ul>
+                <li><strong>Bracket notation</strong></li>
+                <ul><li>car['year'] // returns 2005</li></ul>
+            </ul>
+        <h3>Functions</h3>
+        <p>
+            In JavaScript, a function allows you to define a block of code, give it a name and then execute it as many times as you want. A JavaScript function can be defined using <em>function</em> keyword.
+            It allows you create instructions that will be processed to your expected results. It is compact code that is easy to understand, and are the fundamental building blocks for reusable code libraries.
+            Here's an example of how we write this code:
+        </p> 
+        <p>
+            //defining a function<br>
+            function welcomeMessage ( ) {<br>
+                alert("Hello World!");<br>
+            }
+        </p>
+        <p>
+            A function is like a reusable set of instructions, and we'll use the voice command technology as an example to try and make it easy to understand. 
+            We are now living in a tech driven world, and I'd say that AI and "voice command" technologies are two known big things of today. It's in our devices, and now even in cars like Tesla!
+            Imagine we can assign a voice command that will initiate set of defined instructions. I imagine saying "Schedules Today," 
+            and it will tell me all my schedules for the day with the date and time, in a specific manner I've customed it to do. I'm sure we're not too far from having a customisations like this! 
+            But enough of that for now, I really just wanna make you realise that <em>Functions</em> act almost like that. With functions you can create specific set of parameters, perform a specific instruction
+            using those parameters, and will result to a reliable product. 
+        </p>
+      </div>
+      <div>
+        <p>
+            <h5><em>References:
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+                    <li><a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">W3Schools - CSS</a></li>
+                    <li><a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">W3Schools - DOM</a></li>
+                    <li><a href="https://medium.com/@rianna.cleary/control-flow-in-javascript-9c63d0c98bb9" target="_blank">Medium - Control Flow in JavaScript</a></li>
+                    <li><a href="https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421" target="_blank">Medium - Object and Arrays</a></li>
+                    <li><a href="https://newmediadenver.com/the-importance-of-functions-in-javascript/" target="_blank">New Media Denver - Functions in Javascript</a></li>
+                </ul>
+            </em></h5>
+        </p>
+    </div>
+  </section>
+  <section id="S2">
+    <div class="tiles">
+      <div class="tile">
+        <a href="../blog/about.html">
+          <img src="../images/aboutme.png" alt="Jad's Image and About Me title">
+        </a>
+      </div>
+      <div class="tile">
+        <a href="../blog/sprint1-technical.html">
+          <img src="../images/technicalblog.png" alt="A person doing technical thing and Technical Blog title">
+        </a>
+      </div>
+      <div class="tile">
+        <a href="../blog/sprint1-cultural.html">
+          <img src="../images/values.png" alt="Thumbprint with two hands and Identity, Values, and Strengths Exploration title">
+        </a>
+      </div>
+      <div class="tile">
+        <a href="../blog/sprint2-cultural.html">
+          <img src="../images/learningplan.png" alt="People planning and Learning Plan title">
+        </a>
+      </div>
+      <div class="tile">
+        <a href="../blog/sprint3-cultural.html">
+          <img src="../images/EQ.png" alt="Mom teaching her daughter and Emotional Intelligence title">
+        </a>
+      </div>
+      <div class="tile">
+        <a href="../blog/javascript-dom.html">
+          <img src="../images/Javascript Fundamentals.png" alt="Computer screen with codes and Javascript Fundamentals title">
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer><a href="https://www.sites.google.com/view/jadrodriguez" target="_blank" style="text-decoration: none; color:rgb(255, 255, 255)">Learn more about Jad</a></footer>
+
+</body>
+</html>
